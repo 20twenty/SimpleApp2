@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649111011B49A41C00D91663 /* app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 649110F71B49A41C00D91663 /* app.jpg */; };
+		649111021B49A41C00D91663 /* dove_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110F81B49A41C00D91663 /* dove_40.png */; };
+		649111031B49A41C00D91663 /* dove_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110F91B49A41C00D91663 /* dove_58.png */; };
+		649111041B49A41C00D91663 /* dove_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FA1B49A41C00D91663 /* dove_60.png */; };
+		649111051B49A41C00D91663 /* dove_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FB1B49A41C00D91663 /* dove_76.png */; };
+		649111061B49A41C00D91663 /* dove_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FC1B49A41C00D91663 /* dove_80.png */; };
+		649111071B49A41C00D91663 /* dove_87.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FD1B49A41C00D91663 /* dove_87.png */; };
+		649111081B49A41C00D91663 /* dove_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FE1B49A41C00D91663 /* dove_120.png */; };
+		649111091B49A41C00D91663 /* dove_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FF1B49A41C00D91663 /* dove_152.png */; };
+		6491110A1B49A41C00D91663 /* dove_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 649111001B49A41C00D91663 /* dove_180.png */; };
+		6E1415EF1B4786200034EF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1415EE1B4786200034EF33 /* AppDelegate.swift */; };
+		6E1415F11B4786200034EF33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1415F01B4786200034EF33 /* ViewController.swift */; };
+		6E1415F41B4786200034EF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1415F21B4786200034EF33 /* Main.storyboard */; };
+		6E1415F61B4786200034EF33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1415F51B4786200034EF33 /* Images.xcassets */; };
+		6E1415F91B4786200034EF33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1415F71B4786200034EF33 /* LaunchScreen.xib */; };
+		6E1416051B4786200034EF33 /* SimpleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1416041B4786200034EF33 /* SimpleAppTests.swift */; };
+		6E1416171B47990B0034EF33 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1416141B47990B0034EF33 /* SVProgressHUD.m */; };
+		6E14161F1B479AAD0034EF33 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14161D1B479AAD0034EF33 /* SVIndefiniteAnimatedView.m */; };
+		6E1416201B479AAD0034EF33 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E14161E1B479AAD0034EF33 /* SVProgressHUD.bundle */; };
+		6E1416221B479B390034EF33 /* ViewControllerWebviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1416211B479B390034EF33 /* ViewControllerWebviewDelegate.swift */; };
+		A10F9243F5EC7F6DD7C55126 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9314E6BBD34A555C3A149E /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E1415FF1B4786200034EF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1415E11B4786200034EF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E1415E81B4786200034EF33;
+			remoteInfo = SimpleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FA7275F4B68A017B316FAC9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1C9314E6BBD34A555C3A149E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		649110F71B49A41C00D91663 /* app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app.jpg; sourceTree = "<group>"; };
+		649110F81B49A41C00D91663 /* dove_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_40.png; sourceTree = "<group>"; };
+		649110F91B49A41C00D91663 /* dove_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_58.png; sourceTree = "<group>"; };
+		649110FA1B49A41C00D91663 /* dove_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_60.png; sourceTree = "<group>"; };
+		649110FB1B49A41C00D91663 /* dove_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_76.png; sourceTree = "<group>"; };
+		649110FC1B49A41C00D91663 /* dove_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_80.png; sourceTree = "<group>"; };
+		649110FD1B49A41C00D91663 /* dove_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_87.png; sourceTree = "<group>"; };
+		649110FE1B49A41C00D91663 /* dove_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_120.png; sourceTree = "<group>"; };
+		649110FF1B49A41C00D91663 /* dove_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_152.png; sourceTree = "<group>"; };
+		649111001B49A41C00D91663 /* dove_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_180.png; sourceTree = "<group>"; };
+		6E1415E91B4786200034EF33 /* DebtPayoffPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtPayoffPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1415ED1B4786200034EF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1415EE1B4786200034EF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E1415F01B4786200034EF33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E1415F31B4786200034EF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E1415F51B4786200034EF33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E1415F81B4786200034EF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6E1415FE1B4786200034EF33 /* DebtPayoffPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebtPayoffPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1416031B4786200034EF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1416041B4786200034EF33 /* SimpleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAppTests.swift; sourceTree = "<group>"; };
+		6E1416131B47990B0034EF33 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		6E1416141B47990B0034EF33 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		6E14161B1B4799B70034EF33 /* SimpleApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E14161C1B479AAD0034EF33 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		6E14161D1B479AAD0034EF33 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		6E14161E1B479AAD0034EF33 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		6E1416211B479B390034EF33 /* ViewControllerWebviewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWebviewDelegate.swift; sourceTree = "<group>"; };
+		AF9010529B91484EFC5FE8B7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E1415E61B4786200034EF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10F9243F5EC7F6DD7C55126 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1415FB1B4786200034EF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1415E01B4786200034EF33 = {
+			isa = PBXGroup;
+			children = (
+				6E1415EB1B4786200034EF33 /* SimpleApp */,
+				6E1416011B4786200034EF33 /* SimpleAppTests */,
+				6E1415EA1B4786200034EF33 /* Products */,
+				EE39B81663B7CA7EC87341F3 /* Pods */,
+				CC4ADFD5392D0D7CB5CD965A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E1415EA1B4786200034EF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1415E91B4786200034EF33 /* DebtPayoffPlanner.app */,
+				6E1415FE1B4786200034EF33 /* DebtPayoffPlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E1415EB1B4786200034EF33 /* SimpleApp */ = {
+			isa = PBXGroup;
+			children = (
+				6E14160E1B47990B0034EF33 /* SVProgressHUD */,
+				6E1415EE1B4786200034EF33 /* AppDelegate.swift */,
+				6E1415F01B4786200034EF33 /* ViewController.swift */,
+				6E1416211B479B390034EF33 /* ViewControllerWebviewDelegate.swift */,
+				6E1415F21B4786200034EF33 /* Main.storyboard */,
+				6E1415F51B4786200034EF33 /* Images.xcassets */,
+				6E1415F71B4786200034EF33 /* LaunchScreen.xib */,
+				6E1415EC1B4786200034EF33 /* Supporting Files */,
+			);
+			path = SimpleApp;
+			sourceTree = "<group>";
+		};
+		6E1415EC1B4786200034EF33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				649110F71B49A41C00D91663 /* app.jpg */,
+				649110F81B49A41C00D91663 /* dove_40.png */,
+				649110F91B49A41C00D91663 /* dove_58.png */,
+				649110FA1B49A41C00D91663 /* dove_60.png */,
+				649110FB1B49A41C00D91663 /* dove_76.png */,
+				649110FC1B49A41C00D91663 /* dove_80.png */,
+				649110FD1B49A41C00D91663 /* dove_87.png */,
+				649110FE1B49A41C00D91663 /* dove_120.png */,
+				649110FF1B49A41C00D91663 /* dove_152.png */,
+				649111001B49A41C00D91663 /* dove_180.png */,
+				6E1415ED1B4786200034EF33 /* Info.plist */,
+				6E14161B1B4799B70034EF33 /* SimpleApp-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E1416011B4786200034EF33 /* SimpleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E1416041B4786200034EF33 /* SimpleAppTests.swift */,
+				6E1416021B4786200034EF33 /* Supporting Files */,
+			);
+			path = SimpleAppTests;
+			sourceTree = "<group>";
+		};
+		6E1416021B4786200034EF33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E1416031B4786200034EF33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E14160E1B47990B0034EF33 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6E14161C1B479AAD0034EF33 /* SVIndefiniteAnimatedView.h */,
+				6E14161D1B479AAD0034EF33 /* SVIndefiniteAnimatedView.m */,
+				6E14161E1B479AAD0034EF33 /* SVProgressHUD.bundle */,
+				6E1416131B47990B0034EF33 /* SVProgressHUD.h */,
+				6E1416141B47990B0034EF33 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		CC4ADFD5392D0D7CB5CD965A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C9314E6BBD34A555C3A149E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE39B81663B7CA7EC87341F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7275F4B68A017B316FAC9 /* Pods.debug.xcconfig */,
+				AF9010529B91484EFC5FE8B7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E1415E81B4786200034EF33 /* DebtPayoffPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1416081B4786200034EF33 /* Build configuration list for PBXNativeTarget "DebtPayoffPlanner" */;
+			buildPhases = (
+				6ABD4B5C41FD397DB0E54A47 /* Check Pods Manifest.lock */,
+				6E1415E51B4786200034EF33 /* Sources */,
+				6E1415E61B4786200034EF33 /* Frameworks */,
+				6E1415E71B4786200034EF33 /* Resources */,
+				55F436712BFBBECDF739565C /* Embed Pods Frameworks */,
+				4A5191EC5F6A65D3A65AED61 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebtPayoffPlanner;
+			productName = SimpleApp;
+			productReference = 6E1415E91B4786200034EF33 /* DebtPayoffPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E1415FD1B4786200034EF33 /* DebtPayoffPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E14160B1B4786200034EF33 /* Build configuration list for PBXNativeTarget "DebtPayoffPlannerTests" */;
+			buildPhases = (
+				6E1415FA1B4786200034EF33 /* Sources */,
+				6E1415FB1B4786200034EF33 /* Frameworks */,
+				6E1415FC1B4786200034EF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E1416001B4786200034EF33 /* PBXTargetDependency */,
+			);
+			name = DebtPayoffPlannerTests;
+			productName = SimpleAppTests;
+			productReference = 6E1415FE1B4786200034EF33 /* DebtPayoffPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E1415E11B4786200034EF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Run;
+				TargetAttributes = {
+					6E1415E81B4786200034EF33 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 96EBJNTC9H;
+					};
+					6E1415FD1B4786200034EF33 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6E1415E81B4786200034EF33;
+					};
+				};
+			};
+			buildConfigurationList = 6E1415E41B4786200034EF33 /* Build configuration list for PBXProject "DebtPayoffPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E1415E01B4786200034EF33;
+			productRefGroup = 6E1415EA1B4786200034EF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E1415E81B4786200034EF33 /* DebtPayoffPlanner */,
+				6E1415FD1B4786200034EF33 /* DebtPayoffPlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E1415E71B4786200034EF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1415F41B4786200034EF33 /* Main.storyboard in Resources */,
+				649111061B49A41C00D91663 /* dove_80.png in Resources */,
+				649111041B49A41C00D91663 /* dove_60.png in Resources */,
+				649111031B49A41C00D91663 /* dove_58.png in Resources */,
+				6E1415F91B4786200034EF33 /* LaunchScreen.xib in Resources */,
+				649111011B49A41C00D91663 /* app.jpg in Resources */,
+				649111071B49A41C00D91663 /* dove_87.png in Resources */,
+				649111081B49A41C00D91663 /* dove_120.png in Resources */,
+				649111051B49A41C00D91663 /* dove_76.png in Resources */,
+				6E1415F61B4786200034EF33 /* Images.xcassets in Resources */,
+				6E1416201B479AAD0034EF33 /* SVProgressHUD.bundle in Resources */,
+				6491110A1B49A41C00D91663 /* dove_180.png in Resources */,
+				649111021B49A41C00D91663 /* dove_40.png in Resources */,
+				649111091B49A41C00D91663 /* dove_152.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1415FC1B4786200034EF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A5191EC5F6A65D3A65AED61 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55F436712BFBBECDF739565C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ABD4B5C41FD397DB0E54A47 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E1415E51B4786200034EF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1415F11B4786200034EF33 /* ViewController.swift in Sources */,
+				6E1416171B47990B0034EF33 /* SVProgressHUD.m in Sources */,
+				6E1416221B479B390034EF33 /* ViewControllerWebviewDelegate.swift in Sources */,
+				6E1415EF1B4786200034EF33 /* AppDelegate.swift in Sources */,
+				6E14161F1B479AAD0034EF33 /* SVIndefiniteAnimatedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1415FA1B4786200034EF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1416051B4786200034EF33 /* SimpleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E1416001B4786200034EF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E1415E81B4786200034EF33 /* DebtPayoffPlanner */;
+			targetProxy = 6E1415FF1B4786200034EF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E1415F21B4786200034EF33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1415F31B4786200034EF33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E1415F71B4786200034EF33 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1415F81B4786200034EF33 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E1416061B4786200034EF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E1416071B4786200034EF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E1416091B4786200034EF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA7275F4B68A017B316FAC9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Schuermyer (85CARQEV5J)";
+				INFOPLIST_FILE = SimpleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = DebtPayoffPlanner;
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleApp/SimpleApp-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		6E14160A1B4786200034EF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9010529B91484EFC5FE8B7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chris Schuermyer (96EBJNTC9H)";
+				INFOPLIST_FILE = SimpleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = DebtPayoffPlanner;
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleApp/SimpleApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6E14160C1B4786200034EF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = DebtPayoffPlannerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleApp.app/SimpleApp";
+			};
+			name = Debug;
+		};
+		6E14160D1B4786200034EF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = DebtPayoffPlannerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleApp.app/SimpleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E1415E41B4786200034EF33 /* Build configuration list for PBXProject "DebtPayoffPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1416061B4786200034EF33 /* Debug */,
+				6E1416071B4786200034EF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1416081B4786200034EF33 /* Build configuration list for PBXNativeTarget "DebtPayoffPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1416091B4786200034EF33 /* Debug */,
+				6E14160A1B4786200034EF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E14160B1B4786200034EF33 /* Build configuration list for PBXNativeTarget "DebtPayoffPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E14160C1B4786200034EF33 /* Debug */,
+				6E14160D1B4786200034EF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E1415E11B4786200034EF33 /* Project object */;
+}
