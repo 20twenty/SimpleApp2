@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  SimpleApp
 //
-//  Created by Nguyen Hoang Tuan on 7/4/15.
-//  Copyright (c) 2015 NHT. All rights reserved.
+//  Created by Chris on 7/10/15.
+//  Copyright (c) 2015 OxbowSoft. All rights reserved.
 //
 
 import UIKit
@@ -17,8 +17,7 @@ class ViewController: UIViewController, GADInterstitialDelegate {
     //@IBOutlet weak var bannerView: GADBannerView!
     var googleBannerView: GADBannerView!
     
-    //let URLPath = "http://www.google.com"
-    let URLPath = "http://www.liketivist.com/DebtPlanner2_dev/planner.html"
+    let URLPath = "http://www.google.com"
     
     var myCustomBackButtonItem: UIBarButtonItem?
     
@@ -72,19 +71,11 @@ class ViewController: UIViewController, GADInterstitialDelegate {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
         //CHECK ON INTERNET CONNECTION
         if IJReachability.isConnectedToNetwork() {
             
             NSLog("I'm connected to the network")
-            
-            //SUPPORT FOR GOOGLE ADS
-            //self.bannerView.adUnitID = "ca-app-pub-2652694585370731/3178921602"
-            //self.bannerView.rootViewController = self
-            
-            //var request: GADRequest = GADRequest()
-            //request.testDevices = [ kGADSimulatorID, "cf5848b91f45150868cb35da83b1dd8e9eef4344", "f0913eac2112017cf7b97d2aeec27fb91c4dd2f6" ]
-            
-            //self.bannerView.loadRequest(request)
             
             //SUPPORT FOR GOOGLE ADS DYNAMICALLY CREATE THE CONTAINER
             googleBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
@@ -97,7 +88,7 @@ class ViewController: UIViewController, GADInterstitialDelegate {
             googleBannerView.frame = CGRectMake(0, view.bounds.height-googleBannerView.frame.size.height, googleBannerView.frame.size.width, googleBannerView.frame.size.height)
             
             self.view.addSubview(googleBannerView!)
-            //let bottomConstraint = NSLayoutConstraint(item: webView,
+
             
         } else {
             NSLog("I'm not connected")
@@ -105,14 +96,9 @@ class ViewController: UIViewController, GADInterstitialDelegate {
             let alertNoConnection = UIAlertController(title: "No Internet Connection", message: "Ensure you are within range of a network, networking is turned on, and your device is not in Airplane Mode.", preferredStyle: .Alert)
             let callAction = UIAlertAction(title: "I don't know", style: .Default, handler: {
                 action in
-                NSLog("I'm FFF connected")
-                //   let alertMessage = UIAlertController(title: "Service Unavailable", message: "Sorry, the call feature is not available yet. Please retry later.", preferredStyle: .Alert)
-                //   alertMessage.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-                //self.presentViewController(alertMessage, animated: true, completion: nil)
-                
+                NSLog("I'm connected")
                 }
             )
-            //alertNoConnection.addAction(callAction)
             
             let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
             alertNoConnection.addAction(defaultAction)
