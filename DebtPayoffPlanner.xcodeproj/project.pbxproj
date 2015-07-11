@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		649111011B49A41C00D91663 /* app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 649110F71B49A41C00D91663 /* app.jpg */; };
 		649111021B49A41C00D91663 /* dove_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110F81B49A41C00D91663 /* dove_40.png */; };
 		649111031B49A41C00D91663 /* dove_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110F91B49A41C00D91663 /* dove_58.png */; };
 		649111041B49A41C00D91663 /* dove_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FA1B49A41C00D91663 /* dove_60.png */; };
@@ -17,6 +16,7 @@
 		649111081B49A41C00D91663 /* dove_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FE1B49A41C00D91663 /* dove_120.png */; };
 		649111091B49A41C00D91663 /* dove_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 649110FF1B49A41C00D91663 /* dove_152.png */; };
 		6491110A1B49A41C00D91663 /* dove_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 649111001B49A41C00D91663 /* dove_180.png */; };
+		64F731481B51C7B200346C24 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F731471B51C7B200346C24 /* app_icon.png */; };
 		6E1415EF1B4786200034EF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1415EE1B4786200034EF33 /* AppDelegate.swift */; };
 		6E1415F11B4786200034EF33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1415F01B4786200034EF33 /* ViewController.swift */; };
 		6E1415F41B4786200034EF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1415F21B4786200034EF33 /* Main.storyboard */; };
@@ -43,7 +43,6 @@
 /* Begin PBXFileReference section */
 		0FA7275F4B68A017B316FAC9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		1C9314E6BBD34A555C3A149E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		649110F71B49A41C00D91663 /* app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app.jpg; sourceTree = "<group>"; };
 		649110F81B49A41C00D91663 /* dove_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_40.png; sourceTree = "<group>"; };
 		649110F91B49A41C00D91663 /* dove_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_58.png; sourceTree = "<group>"; };
 		649110FA1B49A41C00D91663 /* dove_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_60.png; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		649110FE1B49A41C00D91663 /* dove_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_120.png; sourceTree = "<group>"; };
 		649110FF1B49A41C00D91663 /* dove_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_152.png; sourceTree = "<group>"; };
 		649111001B49A41C00D91663 /* dove_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dove_180.png; sourceTree = "<group>"; };
+		64F731471B51C7B200346C24 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 		6E1415E91B4786200034EF33 /* DebtPayoffPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtPayoffPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1415ED1B4786200034EF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E1415EE1B4786200034EF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		6E1415EC1B4786200034EF33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				649110F71B49A41C00D91663 /* app.jpg */,
+				64F731471B51C7B200346C24 /* app_icon.png */,
 				649110F81B49A41C00D91663 /* dove_40.png */,
 				649110F91B49A41C00D91663 /* dove_58.png */,
 				649110FA1B49A41C00D91663 /* dove_60.png */,
@@ -280,9 +280,9 @@
 				6E1415F41B4786200034EF33 /* Main.storyboard in Resources */,
 				649111061B49A41C00D91663 /* dove_80.png in Resources */,
 				649111041B49A41C00D91663 /* dove_60.png in Resources */,
+				64F731481B51C7B200346C24 /* app_icon.png in Resources */,
 				649111031B49A41C00D91663 /* dove_58.png in Resources */,
 				6E1415F91B4786200034EF33 /* LaunchScreen.xib in Resources */,
-				649111011B49A41C00D91663 /* app.jpg in Resources */,
 				649111071B49A41C00D91663 /* dove_87.png in Resources */,
 				649111081B49A41C00D91663 /* dove_120.png in Resources */,
 				649111051B49A41C00D91663 /* dove_76.png in Resources */,
