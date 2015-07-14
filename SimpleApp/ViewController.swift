@@ -88,7 +88,7 @@ class ViewController: UIViewController, GADInterstitialDelegate {
             googleBannerView.frame = CGRectMake(0, view.bounds.height-googleBannerView.frame.size.height, googleBannerView.frame.size.width, googleBannerView.frame.size.height)
             
             self.view.addSubview(googleBannerView!)
-
+            addContraintsForAdsView()
             
         } else {
             NSLog("I'm not connected")
@@ -107,5 +107,15 @@ class ViewController: UIViewController, GADInterstitialDelegate {
         }
     }
     
+    /**
+    Add Constraint for ads at bottom
+    */
+    func addContraintsForAdsView() {
+        googleBannerView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        var contraints = NSLayoutConstraint.constraintsWithVisualFormat("|[view]|", options: NSLayoutFormatOptions.allZeros, metrics: nil, views: ["view": googleBannerView])
+        self.view.addConstraints(contraints)
+        contraints = NSLayoutConstraint.constraintsWithVisualFormat("V:[view]|", options: NSLayoutFormatOptions.allZeros, metrics: nil, views: ["view": googleBannerView])
+        self.view.addConstraints(contraints)
+    }
 }
 
