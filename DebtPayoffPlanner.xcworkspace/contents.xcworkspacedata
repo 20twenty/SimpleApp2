@@ -2,10 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:app_icon.png">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/user92987/Desktop/SimpleApp2/DebtPayoffPlanner.xcodeproj">
+      location = "group:DebtPayoffPlanner.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
